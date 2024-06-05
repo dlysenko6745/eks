@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "techtorialeks"
+    bucket = "diana-terraform-bucket"
     key    = "terraform.tfstate"
     region = "us-east-2"
   }
